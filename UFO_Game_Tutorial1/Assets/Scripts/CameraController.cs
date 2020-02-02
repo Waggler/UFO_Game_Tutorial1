@@ -17,9 +17,16 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+
         transform.position = player.transform.position + offset;
 
-        if (Input.GetKey("escape"))
+        /*if (Input.GetKey("escape"))
+        {
             Application.Quit();
+        }*/
     }
 }

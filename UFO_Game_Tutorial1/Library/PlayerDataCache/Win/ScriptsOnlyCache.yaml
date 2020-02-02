@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraController
+    - Movement
     - PlayerController
     - Rotator
     Unity.2D.Tilemap.Editor.dll:
@@ -52,13 +53,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10848}
     - Class: 114
-      Script: {instanceID: 11122}
+      Script: {instanceID: 10944}
     - Class: 114
-      Script: {instanceID: 11264}
+      Script: {instanceID: 11124}
     - Class: 114
-      Script: {instanceID: 11470}
+      Script: {instanceID: 11266}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11472}
+    - Class: 114
+      Script: {instanceID: 11498}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -330,7 +333,7 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: ba7d017e3171d1970cbced635be3298c
+      Hash: 31bf5b8e2aca77c2ce689e7f6e11f7b4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -364,6 +367,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Movement
   - hash:
       serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
